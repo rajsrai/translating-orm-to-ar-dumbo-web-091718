@@ -1,12 +1,4 @@
-class Dog < ActiveRecord:establish_connection
-sql = <<-SQL
-DROP TABLE IF EXISTS dogs (
-  id INTEGER PRIMARY KEY, 
-  name TEXT,
-  breed TEXT
-  )
-SQL
+class Dog < ActiveRecord:base
 
-Dog.create(name, breed)
 
 end
