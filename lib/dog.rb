@@ -7,4 +7,6 @@ DROP TABLE IF EXISTS dogs (
   )
 SQL
 
+Dog.create(name, breed)
+
 end
